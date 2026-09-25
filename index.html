@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Yohana Pardede — Portfolio</title>
+<meta name="description" content="Portfolio Yohana Pardede, mahasiswa Teknik Informatika Universitas Tarumanagara." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="navbar">
+  <div class="navbar__inner">
+    <a href="#home" class="navbar__brand">Yohana<span class="dot">.</span></a>
+
+    <nav class="navbar__links" id="navLinks">
+      <a href="#home">Beranda</a>
+      <a href="#organisasi">Organisasi</a>
+      <a href="#project">Project</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+
+    <button class="navbar__toggle" id="navToggle" aria-label="Buka menu" aria-expanded="false" aria-controls="navLinks">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <section id="home" class="hero">
+    <div class="hero__grid" aria-hidden="true"></div>
+    <div class="hero__content">
+      <p class="hero__eyebrow">Teknik Informatika · Universitas Tarumanagara</p>
+      <h1 class="hero__title">
+        Halo, saya Yohana Pardede.<br>
+        Saya senang menjelajahi hal baru di dunia teknologi.
+      </h1>
+      <p class="hero__desc">
+        Mahasiswa semester 3 yang masih terus belajar, mencoba, dan penasaran dengan
+        banyak hal — dari logika di balik algoritma sampai cara sebuah sistem tersusun rapi.
+        Belum punya satu arah yang pasti, tapi menikmati prosesnya.
+      </p>
+      <div class="hero__stats">
+        <div class="stat">
+          <span class="stat__value">Semester 3</span>
+          <span class="stat__label">Teknik Informatika</span>
+        </div>
+        <div class="stat">
+          <span class="stat__value">535250105</span>
+          <span class="stat__label">Nomor Induk Mahasiswa</span>
+        </div>
+        <div class="stat">
+          <span class="stat__value">BEM Untar</span>
+          <span class="stat__label">Biro Keuangan</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="organisasi" class="section">
+    <div class="section__head">
+      <h2>Pengalaman Organisasi</h2>
+      <p>Bagian dari perjalanan di luar kelas.</p>
+    </div>
+
+    <div class="org-card">
+      <div class="org-card__mark" aria-hidden="true"></div>
+      <div class="org-card__body">
+        <h3>BEM Universitas Tarumanagara</h3>
+        <p class="org-card__role">Anggota Muda — Biro Keuangan</p>
+        <p class="org-card__desc">
+          Terlibat dalam pengelolaan administrasi keuangan kegiatan BEM, membantu
+          menjaga pencatatan dan alur dana program kerja tetap rapi dan bisa
+          dipertanggungjawabkan.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="project" class="section section--alt">
+    <div class="section__head">
+      <h2>Project</h2>
+      <p>Beberapa hal yang sudah saya kerjakan selama kuliah.</p>
+    </div>
+
+    <div class="project-grid">
+
+      <article class="project-card">
+        <p class="project-card__tag">Backend</p>
+        <h3>Backend Project</h3>
+        <p class="project-card__desc">
+          Latihan membangun sisi server: menyusun endpoint, alur data, dan logika
+          dasar di baliknya.
+        </p>
+        <a class="project-card__link" href="https://github.com/yonaXway/backend-project" target="_blank" rel="noopener noreferrer">
+          Lihat kode di GitHub
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M4 12L12 4M12 4H5M12 4V11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </article>
+
+      <article class="project-card">
+        <p class="project-card__tag">Aljabar Linear &amp; Matdis</p>
+        <h3>Aljabar Linear &amp; Matematika Diskrit</h3>
+        <p class="project-card__desc">
+          Implementasi konsep aljabar linear dan matematika diskrit dalam bentuk
+          program sederhana.
+        </p>
+        <a class="project-card__link" href="https://github.com/yonaXway/aljabar-matdis-project" target="_blank" rel="noopener noreferrer">
+          Lihat kode di GitHub
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M4 12L12 4M12 4H5M12 4V11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </article>
+
+      <article class="project-card">
+        <p class="project-card__tag">Struktur Data</p>
+        <h3>Struktur Data Project</h3>
+        <p class="project-card__desc">
+          Penerapan struktur data seperti list, stack, atau tree untuk menyelesaikan
+          soal-soal studi kasus.
+        </p>
+        <a class="project-card__link" href="https://github.com/yonaXway/struktur-data-project" target="_blank" rel="noopener noreferrer">
+          Lihat kode di GitHub
+          <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M4 12L12 4M12 4H5M12 4V11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </article>
+
+    </div>
+  </section>
+
+</main>
+
+<footer id="kontak" class="footer">
+  <div class="footer__inner">
+    <div class="footer__about">
+      <p class="footer__name">Yohana Pardede</p>
+      <p class="footer__nim">NIM 535250105</p>
+      <p class="footer__desc">Teknik Informatika, Universitas Tarumanagara.</p>
+    </div>
+
+    <div class="footer__links">
+      <p class="footer__heading">Tautan</p>
+      <a href="https://github.com/yonaXway" target="_blank" rel="noopener noreferrer">GitHub</a>
+      <a href="#home">Kembali ke atas</a>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <p>&copy; <span id="year"></span> Yohana Pardede. Dibuat untuk Tugas Praktikum 4.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
